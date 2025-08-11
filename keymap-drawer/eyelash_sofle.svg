@@ -57,12 +57,6 @@
 <svg id="mdi:menu-down">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-menu-down" viewBox="0 0 24 24"><path d="M7,10L12,15L17,10H7Z" /></svg>
 </svg>
-<svg id="mdi:menu-left">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-menu-left" viewBox="0 0 24 24"><path d="M14,7L9,12L14,17V7Z" /></svg>
-</svg>
-<svg id="mdi:menu-right">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-menu-right" viewBox="0 0 24 24"><path d="M10,17L15,12L10,7V17Z" /></svg>
-</svg>
 <svg id="mdi:menu-up">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-menu-up" viewBox="0 0 24 24"><path d="M7,15L12,10L17,15H7Z" /></svg>
 </svg>
@@ -808,8 +802,9 @@ rect.held, rect.combo.held {
 <g transform="translate(406, 91)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<use href="#mdi:menu-left" xlink:href="#mdi:menu-left" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:menu-left"/>
-<use href="#mdi:mouse" xlink:href="#mdi:mouse" x="-8" y="-24" height="15" width="15.0" class="key shifted glyph mdi:mouse"/>
+<a href="#LAYER0">
+<text x="0" y="-4" class="key tap layer-activator">LAYER0</text>
+</a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(616, 147)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -880,8 +875,9 @@ rect.held, rect.combo.held {
 <g transform="translate(518, 91)" class="key keypos-45">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<use href="#mdi:menu-right" xlink:href="#mdi:menu-right" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:menu-right"/>
-<use href="#mdi:mouse" xlink:href="#mdi:mouse" x="-8" y="-24" height="15" width="15.0" class="key shifted glyph mdi:mouse"/>
+<a href="#x_x">
+<text x="0" y="-4" class="key tap layer-activator">2</text>
+</a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(616, 203)" class="key keypos-46">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1169,8 +1165,9 @@ rect.held, rect.combo.held {
 <g transform="translate(406, 91)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<use href="#mdi:menu-left" xlink:href="#mdi:menu-left" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:menu-left"/>
-<use href="#mdi:mouse" xlink:href="#mdi:mouse" x="-8" y="-24" height="15" width="15.0" class="key shifted glyph mdi:mouse"/>
+<a href="#LAYER0">
+<text x="0" y="-4" class="key tap layer-activator">LAYER0</text>
+</a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(616, 147)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1236,8 +1233,9 @@ rect.held, rect.combo.held {
 <g transform="translate(518, 91)" class="key keypos-45">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<use href="#mdi:menu-right" xlink:href="#mdi:menu-right" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:menu-right"/>
-<use href="#mdi:mouse" xlink:href="#mdi:mouse" x="-8" y="-24" height="15" width="15.0" class="key shifted glyph mdi:mouse"/>
+<a href="#layer1">
+<text x="0" y="-4" class="key tap layer-activator">layer1</text>
+</a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(616, 203)" class="key keypos-46">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>

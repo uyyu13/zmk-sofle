@@ -98,7 +98,7 @@ layers:
   - D
   - F
   - G
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - {t: LAYER0, h: toggle}
   - PG DN
   - LANGUAGE 2
   - '{'
@@ -111,7 +111,7 @@ layers:
   - C
   - V
   - B
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - {t: '2', h: toggle}
   - INS
   - RGB BRD
   - $$mdi:arrow-up-bold$$
@@ -163,7 +163,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - {t: LAYER0, h: toggle}
   - '4'
   - {t: '5', s: '%'}
   - '6'
@@ -176,7 +176,7 @@ layers:
   - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - {t: layer1, h: toggle}
   - '1'
   - '2'
   - '3'
