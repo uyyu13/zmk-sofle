@@ -59,14 +59,14 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-up-bold$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - END
   - $$mdi:arrow-down-bold$$
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-right-bold$$
   - $$mdi:backspace-reverse-outline$$
   - LANGUAGE 1
   layer1:
-  - {t: '`', s: '~'}
+  - END
   - F1
   - F2
   - F3
