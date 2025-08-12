@@ -56,14 +56,14 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:arrow-left-bold$$
+  - PRINTSCREEN
   - $$mdi:keyboard-space$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:keyboard-esc$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:keyboard-space$$
-  - $$mdi:arrow-right-bold$$
   - $$mdi:backspace-reverse-outline$$
+  - $$mdi:keyboard-esc$$
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
   - LANGUAGE 1
   layer1:
   - $$mdi:keyboard-esc$$
