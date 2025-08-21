@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
   LAYER0:
-  - '~'
+  - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -60,11 +60,11 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:keyboard-esc$$
+  - LANGUAGE 1
   - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-right-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
-  - LANGUAGE 1
   layer1:
   - $$mdi:keyboard-esc$$
   - F1
@@ -155,8 +155,8 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - '{'
+  - '}'
   - {t: '$$mdi:transfer$$', type: trans}
   - OUT USB
   - OUT BLE
@@ -168,8 +168,8 @@ layers:
   - {t: '5', s: '%'}
   - '6'
   - {t: '$$mdi:transfer$$', type: trans}
-  - '{'
-  - '}'
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -262,4 +262,4 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [39, 0]
-  k: $$mdi:keyboard-esc$$
+  k: '~'
