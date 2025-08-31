@@ -60,11 +60,11 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:keyboard-esc$$
-  - LANGUAGE 1
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-right-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-down-bold$$
+  - LANGUAGE 1
   layer1:
   - $$mdi:keyboard-esc$$
   - F1
