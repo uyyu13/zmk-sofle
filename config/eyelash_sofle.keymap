@@ -79,11 +79,11 @@
 
         layer_2 {
             bindings = <
-&kp TILDE       &bt BT_SEL 0      &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP    &kp SLASH     &kp ASTERISK  &kp MINUS     &kp PLUS   &trans            &kp BACKSPACE
-&trans          &bt BT_CLR        &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv MOVE_DOWN  &kp N7        &kp N8        &kp N9        &trans     &kp LEFT_BRACE    &kp RIGHT_BRACE
-&trans          &out OUT_USB      &out OUT_BLE    &trans        &trans        &trans          &to 0           &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp LEFT_SHIFT  &sys_reset        &trans          &bootloader   &trans        &trans          &to 1           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &soft_off  &bootloader       &kp ENTER
-&trans          &kp LEFT_CONTROL  &kp LEFT_ALT    &trans        &trans        &trans          &mkp LCLK       &trans        &kp COMMA     &kp N0        &kp DOT    &trans
+&kp TILDE       &bt BT_SEL 0      &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &mmv MOVE_UP    &kp SLASH     &kp ASTERISK  &kp MINUS     &kp PLUS   &trans            &kp BACKSPACE
+&trans          &bt BT_CLR        &bt BT_CLR_ALL  &trans          &trans          &trans          &mmv MOVE_DOWN  &kp N7        &kp N8        &kp N9        &trans     &kp LEFT_BRACE    &kp RIGHT_BRACE
+&trans          &out OUT_USB      &out OUT_BLE    &trans          &trans          &trans          &to 0           &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp LEFT_SHIFT  &sys_reset        &trans          &bootloader     &trans          &kp UP_ARROW    &to 1           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &soft_off  &bootloader       &kp ENTER
+&trans          &kp LEFT_CONTROL  &kp LEFT_ALT    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT       &mkp LCLK       &trans        &kp COMMA     &kp N0        &kp DOT    &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
