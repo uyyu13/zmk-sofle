@@ -542,8 +542,7 @@ rect.held, rect.combo.held {
 <g transform="translate(728, 196)" class="key keypos-48">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">,</text>
-<text x="0" y="-24" class="key shifted">&lt;</text>
+<use href="#mdi:arrow-up-bold" xlink:href="#mdi:arrow-up-bold" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:arrow-up-bold"/>
 </g>
 <g transform="translate(784, 203)" class="key keypos-49">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -600,17 +599,20 @@ rect.held, rect.combo.held {
 <g transform="translate(535, 294) rotate(-30.0)" class="key keypos-59">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<use href="#mdi:arrow-left-bold" xlink:href="#mdi:arrow-left-bold" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:arrow-left-bold"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="0" dy="1.2em" style="font-size: 75%">1</tspan>
+</text>
 </g>
 <g transform="translate(610, 283) rotate(-30.0)" class="key keypos-60">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<use href="#mdi:arrow-right-bold" xlink:href="#mdi:arrow-right-bold" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:arrow-right-bold"/>
+<text x="0" y="-4" class="key tap">,</text>
+<text x="0" y="-24" class="key shifted">&lt;</text>
 </g>
 <g transform="translate(672, 259)" class="key keypos-61">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<use href="#mdi:arrow-up-bold" xlink:href="#mdi:arrow-up-bold" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:arrow-up-bold"/>
+<use href="#mdi:arrow-left-bold" xlink:href="#mdi:arrow-left-bold" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:arrow-left-bold"/>
 </g>
 <g transform="translate(728, 252)" class="key keypos-62">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -620,9 +622,7 @@ rect.held, rect.combo.held {
 <g transform="translate(784, 259)" class="key keypos-63">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="0" dy="1.2em" style="font-size: 75%">1</tspan>
-</text>
+<use href="#mdi:arrow-right-bold" xlink:href="#mdi:arrow-right-bold" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:arrow-right-bold"/>
 </g>
 <g class="combo combopos-0">
 <path d="M28,140 l0,65" class="combo"/>
@@ -635,6 +635,78 @@ rect.held, rect.combo.held {
 <path d="M140,158 l98,89" class="combo"/>
 <rect rx="6" ry="6" x="126" y="145" width="28" height="26" class="combo"/>
 <text x="140" y="158" class="combo tap"><tspan style="font-size: 60%">PRINTSCRE…</tspan></text>
+</g>
+<g class="combo combopos-2">
+<path d="M309,175 l-209,-110" class="combo"/>
+<path d="M309,175 l209,110" class="combo"/>
+<rect rx="6" ry="6" x="295" y="162" width="28" height="26" class="combo"/>
+<text x="309" y="175" class="combo tap">F1</text>
+</g>
+<g class="combo combopos-3">
+<path d="M337,164 l182,119" class="combo"/>
+<path d="M337,164 l-182,-119" class="combo"/>
+<rect rx="6" ry="6" x="323" y="152" width="28" height="26" class="combo"/>
+<text x="337" y="164" class="combo tap">F2</text>
+</g>
+<g class="combo combopos-4">
+<path d="M365,161 l-155,-121" class="combo"/>
+<path d="M365,161 l155,121" class="combo"/>
+<rect rx="6" ry="6" x="351" y="148" width="28" height="26" class="combo"/>
+<text x="365" y="161" class="combo tap">F3</text>
+</g>
+<g class="combo combopos-5">
+<path d="M393,164 l128,117" class="combo"/>
+<path d="M393,164 l-128,-117" class="combo"/>
+<rect rx="6" ry="6" x="379" y="152" width="28" height="26" class="combo"/>
+<text x="393" y="164" class="combo tap">F4</text>
+</g>
+<g class="combo combopos-6">
+<path d="M421,164 l101,115" class="combo"/>
+<path d="M421,164 l-101,-115" class="combo"/>
+<rect rx="6" ry="6" x="407" y="152" width="28" height="26" class="combo"/>
+<text x="421" y="164" class="combo tap">F5</text>
+</g>
+<g class="combo combopos-7">
+<path d="M575,164 l-35,112" class="combo"/>
+<path d="M575,164 l35,-112" class="combo"/>
+<rect rx="6" ry="6" x="561" y="152" width="28" height="26" class="combo"/>
+<text x="575" y="164" class="combo tap">F6</text>
+</g>
+<g class="combo combopos-8">
+<path d="M603,164 l-60,113" class="combo"/>
+<path d="M603,164 l60,-113" class="combo"/>
+<rect rx="6" ry="6" x="589" y="152" width="28" height="26" class="combo"/>
+<text x="603" y="164" class="combo tap">F7</text>
+</g>
+<g class="combo combopos-9">
+<path d="M631,161 l-86,118" class="combo"/>
+<path d="M631,161 l86,-118" class="combo"/>
+<rect rx="6" ry="6" x="617" y="148" width="28" height="26" class="combo"/>
+<text x="631" y="161" class="combo tap">F8</text>
+</g>
+<g class="combo combopos-10">
+<path d="M659,164 l112,-116" class="combo"/>
+<path d="M659,164 l-112,116" class="combo"/>
+<rect rx="6" ry="6" x="645" y="152" width="28" height="26" class="combo"/>
+<text x="659" y="164" class="combo tap">F9</text>
+</g>
+<g class="combo combopos-11">
+<path d="M687,175 l-138,107" class="combo"/>
+<path d="M687,175 l138,-107" class="combo"/>
+<rect rx="6" ry="6" x="673" y="162" width="28" height="26" class="combo"/>
+<text x="687" y="175" class="combo tap">F10</text>
+</g>
+<g class="combo combopos-12">
+<path d="M687,203 l137,-81" class="combo"/>
+<path d="M687,203 l-137,81" class="combo"/>
+<rect rx="6" ry="6" x="673" y="190" width="28" height="26" class="combo"/>
+<text x="687" y="203" class="combo tap">F11</text>
+</g>
+<g class="combo combopos-13">
+<path d="M715,203 l164,-82" class="combo"/>
+<path d="M715,203 l-164,82" class="combo"/>
+<rect rx="6" ry="6" x="701" y="190" width="28" height="26" class="combo"/>
+<text x="715" y="203" class="combo tap">F12</text>
 </g>
 </g>
 </g>
@@ -992,6 +1064,78 @@ rect.held, rect.combo.held {
 <path d="M140,158 l98,89" class="combo"/>
 <rect rx="6" ry="6" x="126" y="145" width="28" height="26" class="combo"/>
 <text x="140" y="158" class="combo tap"><tspan style="font-size: 60%">PRINTSCRE…</tspan></text>
+</g>
+<g class="combo combopos-2">
+<path d="M309,175 l-209,-110" class="combo"/>
+<path d="M309,175 l209,110" class="combo"/>
+<rect rx="6" ry="6" x="295" y="162" width="28" height="26" class="combo"/>
+<text x="309" y="175" class="combo tap">F1</text>
+</g>
+<g class="combo combopos-3">
+<path d="M337,164 l182,119" class="combo"/>
+<path d="M337,164 l-182,-119" class="combo"/>
+<rect rx="6" ry="6" x="323" y="152" width="28" height="26" class="combo"/>
+<text x="337" y="164" class="combo tap">F2</text>
+</g>
+<g class="combo combopos-4">
+<path d="M365,161 l-155,-121" class="combo"/>
+<path d="M365,161 l155,121" class="combo"/>
+<rect rx="6" ry="6" x="351" y="148" width="28" height="26" class="combo"/>
+<text x="365" y="161" class="combo tap">F3</text>
+</g>
+<g class="combo combopos-5">
+<path d="M393,164 l128,117" class="combo"/>
+<path d="M393,164 l-128,-117" class="combo"/>
+<rect rx="6" ry="6" x="379" y="152" width="28" height="26" class="combo"/>
+<text x="393" y="164" class="combo tap">F4</text>
+</g>
+<g class="combo combopos-6">
+<path d="M421,164 l101,115" class="combo"/>
+<path d="M421,164 l-101,-115" class="combo"/>
+<rect rx="6" ry="6" x="407" y="152" width="28" height="26" class="combo"/>
+<text x="421" y="164" class="combo tap">F5</text>
+</g>
+<g class="combo combopos-7">
+<path d="M575,164 l-35,112" class="combo"/>
+<path d="M575,164 l35,-112" class="combo"/>
+<rect rx="6" ry="6" x="561" y="152" width="28" height="26" class="combo"/>
+<text x="575" y="164" class="combo tap">F6</text>
+</g>
+<g class="combo combopos-8">
+<path d="M603,164 l-60,113" class="combo"/>
+<path d="M603,164 l60,-113" class="combo"/>
+<rect rx="6" ry="6" x="589" y="152" width="28" height="26" class="combo"/>
+<text x="603" y="164" class="combo tap">F7</text>
+</g>
+<g class="combo combopos-9">
+<path d="M631,161 l-86,118" class="combo"/>
+<path d="M631,161 l86,-118" class="combo"/>
+<rect rx="6" ry="6" x="617" y="148" width="28" height="26" class="combo"/>
+<text x="631" y="161" class="combo tap">F8</text>
+</g>
+<g class="combo combopos-10">
+<path d="M659,164 l112,-116" class="combo"/>
+<path d="M659,164 l-112,116" class="combo"/>
+<rect rx="6" ry="6" x="645" y="152" width="28" height="26" class="combo"/>
+<text x="659" y="164" class="combo tap">F9</text>
+</g>
+<g class="combo combopos-11">
+<path d="M687,175 l-138,107" class="combo"/>
+<path d="M687,175 l138,-107" class="combo"/>
+<rect rx="6" ry="6" x="673" y="162" width="28" height="26" class="combo"/>
+<text x="687" y="175" class="combo tap">F10</text>
+</g>
+<g class="combo combopos-12">
+<path d="M687,203 l137,-81" class="combo"/>
+<path d="M687,203 l-137,81" class="combo"/>
+<rect rx="6" ry="6" x="673" y="190" width="28" height="26" class="combo"/>
+<text x="687" y="203" class="combo tap">F11</text>
+</g>
+<g class="combo combopos-13">
+<path d="M715,203 l164,-82" class="combo"/>
+<path d="M715,203 l-164,82" class="combo"/>
+<rect rx="6" ry="6" x="701" y="190" width="28" height="26" class="combo"/>
+<text x="715" y="203" class="combo tap">F12</text>
 </g>
 </g>
 </g>
@@ -1362,6 +1506,78 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="126" y="145" width="28" height="26" class="combo"/>
 <text x="140" y="158" class="combo tap"><tspan style="font-size: 60%">PRINTSCRE…</tspan></text>
 </g>
+<g class="combo combopos-2">
+<path d="M309,175 l-209,-110" class="combo"/>
+<path d="M309,175 l209,110" class="combo"/>
+<rect rx="6" ry="6" x="295" y="162" width="28" height="26" class="combo"/>
+<text x="309" y="175" class="combo tap">F1</text>
+</g>
+<g class="combo combopos-3">
+<path d="M337,164 l182,119" class="combo"/>
+<path d="M337,164 l-182,-119" class="combo"/>
+<rect rx="6" ry="6" x="323" y="152" width="28" height="26" class="combo"/>
+<text x="337" y="164" class="combo tap">F2</text>
+</g>
+<g class="combo combopos-4">
+<path d="M365,161 l-155,-121" class="combo"/>
+<path d="M365,161 l155,121" class="combo"/>
+<rect rx="6" ry="6" x="351" y="148" width="28" height="26" class="combo"/>
+<text x="365" y="161" class="combo tap">F3</text>
+</g>
+<g class="combo combopos-5">
+<path d="M393,164 l128,117" class="combo"/>
+<path d="M393,164 l-128,-117" class="combo"/>
+<rect rx="6" ry="6" x="379" y="152" width="28" height="26" class="combo"/>
+<text x="393" y="164" class="combo tap">F4</text>
+</g>
+<g class="combo combopos-6">
+<path d="M421,164 l101,115" class="combo"/>
+<path d="M421,164 l-101,-115" class="combo"/>
+<rect rx="6" ry="6" x="407" y="152" width="28" height="26" class="combo"/>
+<text x="421" y="164" class="combo tap">F5</text>
+</g>
+<g class="combo combopos-7">
+<path d="M575,164 l-35,112" class="combo"/>
+<path d="M575,164 l35,-112" class="combo"/>
+<rect rx="6" ry="6" x="561" y="152" width="28" height="26" class="combo"/>
+<text x="575" y="164" class="combo tap">F6</text>
+</g>
+<g class="combo combopos-8">
+<path d="M603,164 l-60,113" class="combo"/>
+<path d="M603,164 l60,-113" class="combo"/>
+<rect rx="6" ry="6" x="589" y="152" width="28" height="26" class="combo"/>
+<text x="603" y="164" class="combo tap">F7</text>
+</g>
+<g class="combo combopos-9">
+<path d="M631,161 l-86,118" class="combo"/>
+<path d="M631,161 l86,-118" class="combo"/>
+<rect rx="6" ry="6" x="617" y="148" width="28" height="26" class="combo"/>
+<text x="631" y="161" class="combo tap">F8</text>
+</g>
+<g class="combo combopos-10">
+<path d="M659,164 l112,-116" class="combo"/>
+<path d="M659,164 l-112,116" class="combo"/>
+<rect rx="6" ry="6" x="645" y="152" width="28" height="26" class="combo"/>
+<text x="659" y="164" class="combo tap">F9</text>
+</g>
+<g class="combo combopos-11">
+<path d="M687,175 l-138,107" class="combo"/>
+<path d="M687,175 l138,-107" class="combo"/>
+<rect rx="6" ry="6" x="673" y="162" width="28" height="26" class="combo"/>
+<text x="687" y="175" class="combo tap">F10</text>
+</g>
+<g class="combo combopos-12">
+<path d="M687,203 l137,-81" class="combo"/>
+<path d="M687,203 l-137,81" class="combo"/>
+<rect rx="6" ry="6" x="673" y="190" width="28" height="26" class="combo"/>
+<text x="687" y="203" class="combo tap">F11</text>
+</g>
+<g class="combo combopos-13">
+<path d="M715,203 l164,-82" class="combo"/>
+<path d="M715,203 l-164,82" class="combo"/>
+<rect rx="6" ry="6" x="701" y="190" width="28" height="26" class="combo"/>
+<text x="715" y="203" class="combo tap">F12</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1165)" class="layer-3">
@@ -1698,6 +1914,78 @@ rect.held, rect.combo.held {
 <path d="M140,158 l98,89" class="combo"/>
 <rect rx="6" ry="6" x="126" y="145" width="28" height="26" class="combo"/>
 <text x="140" y="158" class="combo tap"><tspan style="font-size: 60%">PRINTSCRE…</tspan></text>
+</g>
+<g class="combo combopos-2">
+<path d="M309,175 l-209,-110" class="combo"/>
+<path d="M309,175 l209,110" class="combo"/>
+<rect rx="6" ry="6" x="295" y="162" width="28" height="26" class="combo"/>
+<text x="309" y="175" class="combo tap">F1</text>
+</g>
+<g class="combo combopos-3">
+<path d="M337,164 l182,119" class="combo"/>
+<path d="M337,164 l-182,-119" class="combo"/>
+<rect rx="6" ry="6" x="323" y="152" width="28" height="26" class="combo"/>
+<text x="337" y="164" class="combo tap">F2</text>
+</g>
+<g class="combo combopos-4">
+<path d="M365,161 l-155,-121" class="combo"/>
+<path d="M365,161 l155,121" class="combo"/>
+<rect rx="6" ry="6" x="351" y="148" width="28" height="26" class="combo"/>
+<text x="365" y="161" class="combo tap">F3</text>
+</g>
+<g class="combo combopos-5">
+<path d="M393,164 l128,117" class="combo"/>
+<path d="M393,164 l-128,-117" class="combo"/>
+<rect rx="6" ry="6" x="379" y="152" width="28" height="26" class="combo"/>
+<text x="393" y="164" class="combo tap">F4</text>
+</g>
+<g class="combo combopos-6">
+<path d="M421,164 l101,115" class="combo"/>
+<path d="M421,164 l-101,-115" class="combo"/>
+<rect rx="6" ry="6" x="407" y="152" width="28" height="26" class="combo"/>
+<text x="421" y="164" class="combo tap">F5</text>
+</g>
+<g class="combo combopos-7">
+<path d="M575,164 l-35,112" class="combo"/>
+<path d="M575,164 l35,-112" class="combo"/>
+<rect rx="6" ry="6" x="561" y="152" width="28" height="26" class="combo"/>
+<text x="575" y="164" class="combo tap">F6</text>
+</g>
+<g class="combo combopos-8">
+<path d="M603,164 l-60,113" class="combo"/>
+<path d="M603,164 l60,-113" class="combo"/>
+<rect rx="6" ry="6" x="589" y="152" width="28" height="26" class="combo"/>
+<text x="603" y="164" class="combo tap">F7</text>
+</g>
+<g class="combo combopos-9">
+<path d="M631,161 l-86,118" class="combo"/>
+<path d="M631,161 l86,-118" class="combo"/>
+<rect rx="6" ry="6" x="617" y="148" width="28" height="26" class="combo"/>
+<text x="631" y="161" class="combo tap">F8</text>
+</g>
+<g class="combo combopos-10">
+<path d="M659,164 l112,-116" class="combo"/>
+<path d="M659,164 l-112,116" class="combo"/>
+<rect rx="6" ry="6" x="645" y="152" width="28" height="26" class="combo"/>
+<text x="659" y="164" class="combo tap">F9</text>
+</g>
+<g class="combo combopos-11">
+<path d="M687,175 l-138,107" class="combo"/>
+<path d="M687,175 l138,-107" class="combo"/>
+<rect rx="6" ry="6" x="673" y="162" width="28" height="26" class="combo"/>
+<text x="687" y="175" class="combo tap">F10</text>
+</g>
+<g class="combo combopos-12">
+<path d="M687,203 l137,-81" class="combo"/>
+<path d="M687,203 l-137,81" class="combo"/>
+<rect rx="6" ry="6" x="673" y="190" width="28" height="26" class="combo"/>
+<text x="687" y="203" class="combo tap">F11</text>
+</g>
+<g class="combo combopos-13">
+<path d="M715,203 l164,-82" class="combo"/>
+<path d="M715,203 l-164,82" class="combo"/>
+<rect rx="6" ry="6" x="701" y="190" width="28" height="26" class="combo"/>
+<text x="715" y="203" class="combo tap">F12</text>
 </g>
 </g>
 </g>

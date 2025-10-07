@@ -49,7 +49,7 @@ layers:
   - {t: '2', h: toggle}
   - N
   - M
-  - {t: ',', s: <}
+  - $$mdi:arrow-up-bold$$
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -60,11 +60,11 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:keyboard-esc$$
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-right-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-down-bold$$
   - LANGUAGE 1
+  - {t: ',', s: <}
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
   layer1:
   - $$mdi:keyboard-esc$$
   - F1
@@ -265,3 +265,27 @@ combos:
   k: $$mdi:keyboard-esc$$
 - p: [0, 55]
   k: PRINTSCREEN
+- p: [1, 59]
+  k: F1
+- p: [59, 2]
+  k: F2
+- p: [3, 59]
+  k: F3
+- p: [59, 4]
+  k: F4
+- p: [59, 5]
+  k: F5
+- p: [59, 7]
+  k: F6
+- p: [59, 8]
+  k: F7
+- p: [59, 9]
+  k: F8
+- p: [10, 59]
+  k: F9
+- p: [59, 11]
+  k: F10
+- p: [24, 59]
+  k: F11
+- p: [25, 59]
+  k: F12
