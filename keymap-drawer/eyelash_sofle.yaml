@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - {t: '-', s: _}
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
   - A
   - S
   - D
@@ -40,7 +40,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
@@ -289,3 +289,11 @@ combos:
   k: F11
 - p: [25, 59]
   k: F12
+- p: [39, 37]
+  k: {t: '[', s: '{'}
+- p: [39, 38]
+  k: {t: ']', s: '}'}
+- p: [39, 24]
+  k: '{'
+- p: [39, 25]
+  k: '}'
