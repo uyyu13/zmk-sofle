@@ -132,7 +132,7 @@
             key-positions = <39 25>;
         };
 
-        dd {
+        dfklajdlksfj {
             bindings = <&kp PIPE>;
             key-positions = <39 59>;
         };
