@@ -56,7 +56,7 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-caps$$
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:keyboard-space$$
+  - LEFT WIN
   - $$mdi:keyboard-space$$
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:keyboard-esc$$
@@ -297,3 +297,5 @@ combos:
   k: '{'
 - p: [39, 25]
   k: '}'
+- p: [39, 59]
+  k: '|'
