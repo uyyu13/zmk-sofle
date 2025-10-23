@@ -136,6 +136,21 @@
             bindings = <&kp PIPE>;
             key-positions = <39 59>;
         };
+
+        sdfgs {
+            bindings = <&to 2>;
+            key-positions = <12 51>;
+        };
+
+        sdgcsd {
+            bindings = <&to 1>;
+            key-positions = <12 38>;
+        };
+
+        sdgfasga {
+            bindings = <&to 0>;
+            key-positions = <12 25>;
+        };
     };
 
     keymap {
