@@ -59,7 +59,7 @@ layers:
   - LEFT WIN
   - $$mdi:keyboard-space$$
   - $$mdi:backspace-reverse-outline$$
-  - $$mdi:keyboard-esc$$
+  - {t: layer1, h: toggle}
   - LANGUAGE 1
   - {t: ',', s: <}
   - $$mdi:arrow-left-bold$$
@@ -124,7 +124,7 @@ layers:
   - LANGUAGE 1
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '2', h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-left-bold$$
@@ -189,7 +189,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - $$mdi:mouse-left-click-outline$$
+  - {t: LAYER0, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: ',', s: <}
   - {t: '0', s: )}
