@@ -54,32 +54,32 @@
 
         f1 {
             bindings = <&kp F1>;
-            key-positions = <1 59>;
+            key-positions = <1 55>;
         };
 
         f2 {
             bindings = <&kp F2>;
-            key-positions = <59 2>;
+            key-positions = <2 55>;
         };
 
         f3 {
             bindings = <&kp F3>;
-            key-positions = <3 59>;
+            key-positions = <3 55>;
         };
 
         f4 {
             bindings = <&kp F4>;
-            key-positions = <59 4>;
+            key-positions = <4 55>;
         };
 
         f5 {
             bindings = <&kp F5>;
-            key-positions = <59 5>;
+            key-positions = <5 55>;
         };
 
         f6 {
             bindings = <&kp F6>;
-            key-positions = <59 7>;
+            key-positions = <7 59>;
         };
 
         f7 {
@@ -104,7 +104,7 @@
 
         f11 {
             bindings = <&kp F11>;
-            key-positions = <24 59>;
+            key-positions = <59 12>;
         };
 
         f12 {
@@ -115,21 +115,25 @@
         ddfs {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <39 37>;
+            require-prior-idle-ms = <200>;
         };
 
         dfs {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <39 38>;
+            require-prior-idle-ms = <200>;
         };
 
         dfsfdfd {
             bindings = <&kp LEFT_BRACE>;
             key-positions = <39 24>;
+            require-prior-idle-ms = <200>;
         };
 
         dsfsdf {
             bindings = <&kp RIGHT_BRACE>;
             key-positions = <39 25>;
+            require-prior-idle-ms = <200>;
         };
 
         dfklajdlksfj {
