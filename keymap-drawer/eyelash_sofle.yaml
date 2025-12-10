@@ -305,5 +305,5 @@ combos:
   k: {t: layer1, h: toggle}
 - p: [12, 25]
   k: {t: LAYER0, h: toggle}
-- p: [39, 25, 26]
+- p: [39, 26, 11]
   k: +
