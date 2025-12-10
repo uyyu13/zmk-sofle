@@ -164,7 +164,7 @@
 
         DF {
             bindings = <&kp PLUS>;
-            key-positions = <39 25 26>;
+            key-positions = <39 26 11>;
             require-prior-idle-ms = <200>;
             timeout-ms = <350>;
         };
