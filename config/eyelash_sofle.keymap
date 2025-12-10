@@ -115,35 +115,36 @@
 
         ddfs {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <39 37>;
+            key-positions = <39 37 26>;
             require-prior-idle-ms = <200>;
             timeout-ms = <350>;
         };
 
         dfs {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <39 38>;
+            key-positions = <39 38 26>;
             require-prior-idle-ms = <200>;
             timeout-ms = <350>;
         };
 
         dfsfdfd {
             bindings = <&kp LEFT_BRACE>;
-            key-positions = <39 24>;
+            key-positions = <39 24 26>;
             require-prior-idle-ms = <200>;
             timeout-ms = <350>;
         };
 
         dsfsdf {
             bindings = <&kp RIGHT_BRACE>;
-            key-positions = <39 25>;
+            key-positions = <39 25 26>;
             require-prior-idle-ms = <200>;
             timeout-ms = <350>;
         };
 
         dfklajdlksfj {
             bindings = <&kp PIPE>;
-            key-positions = <39 59>;
+            key-positions = <39 59 26>;
+            timeout-ms = <500>;
         };
 
         sdfgs {
@@ -163,7 +164,7 @@
 
         DF {
             bindings = <&kp PLUS>;
-            key-positions = <39 25>;
+            key-positions = <39 25 26>;
             require-prior-idle-ms = <200>;
             timeout-ms = <350>;
         };
