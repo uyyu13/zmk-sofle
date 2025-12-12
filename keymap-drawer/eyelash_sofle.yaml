@@ -54,9 +54,9 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
+  - LEFT WIN
   - $$mdi:apple-keyboard-caps$$
   - $$mdi:apple-keyboard-option$$
-  - LEFT WIN
   - $$mdi:keyboard-space$$
   - $$mdi:backspace-reverse-outline$$
   - {t: '3', h: toggle}
